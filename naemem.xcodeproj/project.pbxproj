@@ -104,6 +104,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021A7A122C10805600CD3275 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02834AA12BCFB82300C3FD09 /* SplashView.swift */,
+				023A38B52BC7FA28009AE860 /* ActivityView.swift */,
+				02834A7D2BCD071400C3FD09 /* CreatePostView.swift */,
+				023A39172BC91F2B009AE860 /* PostView.swift */,
+				02834A7B2BCCDA8F00C3FD09 /* PostDetailView.swift */,
+				023A39152BC9185F009AE860 /* TabContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		023A38A72BC7FA28009AE860 = {
 			isa = PBXGroup;
 			children = (
@@ -128,18 +141,12 @@
 		023A38B22BC7FA28009AE860 /* naemem */ = {
 			isa = PBXGroup;
 			children = (
+				021A7A122C10805600CD3275 /* View */,
 				02834A982BCF919500C3FD09 /* Info.plist */,
 				02834A8F2BCF82C500C3FD09 /* Resources */,
 				02834A8C2BCF646900C3FD09 /* Component */,
 				02834A812BCD506400C3FD09 /* Model */,
 				023A38B32BC7FA28009AE860 /* naememApp.swift */,
-				02834AA12BCFB82300C3FD09 /* SplashView.swift */,
-				023A38B52BC7FA28009AE860 /* ActivityView.swift */,
-				02834A7D2BCD071400C3FD09 /* CreatePostView.swift */,
-				02834A7F2BCD0D7F00C3FD09 /* PhotoPicker.swift */,
-				023A39172BC91F2B009AE860 /* PostView.swift */,
-				02834A7B2BCCDA8F00C3FD09 /* PostDetailView.swift */,
-				023A39152BC9185F009AE860 /* TabContentView.swift */,
 				023A38B72BC7FA2A009AE860 /* Assets.xcassets */,
 				023A38B92BC7FA2A009AE860 /* Preview Content */,
 			);
@@ -183,6 +190,7 @@
 		02834A8C2BCF646900C3FD09 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				02834A7F2BCD0D7F00C3FD09 /* PhotoPicker.swift */,
 				02834A8D2BCF647800C3FD09 /* Ring.swift */,
 			);
 			path = Component;

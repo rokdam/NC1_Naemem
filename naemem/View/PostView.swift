@@ -87,3 +87,16 @@ struct PostView: View {
         
     }
 }
+
+#Preview {
+    let config = ModelConfiguration(isStoredInMemoryOnly: true)
+    let container = try! ModelContainer(for: Diary.self, configurations: config)
+    
+//    let diary = Diary(title: "Sample Title",
+//                        thumbnail: Data(), // 썸네일 이미지 데이터
+//                        imageCnt: 3, // 이미지 개수
+//                        created: "2024-06-05" // 포스트 작성일
+//    )
+    return PostView()
+        .modelContainer(for: Diary.self)
+}
